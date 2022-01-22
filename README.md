@@ -6,7 +6,7 @@ Tool to manipulate, pull and push GitLab secrets.
 ## Installation
 
 ```bash
-$ go install github.com/yuriizinets/gitlab-secrets
+$ go install github.com/yuriizinets/gitlab-secrets@latest
 ```
 
 ## Usage

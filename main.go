@@ -226,7 +226,7 @@ func Pull(file string, utrunc bool) {
 
 func main() {
 	// Help message
-	if len(os.Args) == 1 {
+	if len(os.Args) == 1 || os.Args[1] == "-h" || os.Args[1] == "--help" || os.Args[1] == "help" {
 		println("Commands:")
 		println("  auth     - Authenticate with a private token")
 		println("  kv:list  - List keys or key/value pairs")
